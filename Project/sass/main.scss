@@ -1,7 +1,33 @@
 :root {
-    --bg-color: #01011f;
+    // BACKGROUND COLORS
+    --bg-clr: #01011f;
+    --bg-photo-clr: #282828;
+
+    // SHADES OF BLUE + VIOLET
+    --spphire-clr: #3c06f4;
+    --violet-dark-clr: #0c0032;
+    --violet-medium-clr: #190061;
+    --violet-mutted-clr: #240090;
+
+    // BASIC COLORS
+    --black-clr: #000;
+    --white-clr: #fff;
+
+    // TEXT COLORS
+    --grey-light-clr: #cdd7f3;
+    --grey-medium-clr: #8993ad;
 }
+
+// FONT
+$font-family-first-option: "Roboto", sans-serif;
+$font-family-second-option: "Open Sans", sans-serif;
+
 body {
-    color: #fff;
-    background-color: var(--bg-color);
+    color: var(--grey-medium-clr);
+    background-color: var(--bg-clr);
+    font-family: $font-family-first-option;
+}
+
+svg {
+    color: var(--sapphire-clr);
 }

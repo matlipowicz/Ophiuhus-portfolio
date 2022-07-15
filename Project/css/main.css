@@ -1,10 +1,24 @@
 :root {
-  --bg-color: #01011f;
+    --bg-clr: #01011f;
+    --bg-photo-clr: #282828;
+    --sapphire-clr: #3c06f4;
+    --violet-dark-clr: #0c0032;
+    --violet-medium-clr: #190061;
+    --violet-mutted-clr: #240090;
+    --black-clr: #000;
+    --white-clr: #fff;
+    --grey-light-clr: #cdd7f3;
+    --grey-medium-clr: #8993ad;
 }
 
 body {
-  color: #fff;
-  background-color: var(--bg-color);
+    color: var(--grey-medium-clr);
+    background-color: var(--bg-clr);
+    font-family: "Roboto", sans-serif;
+}
+
+svg {
+    fill: var(--sapphire-clr);
 }
 
 /*# sourceMappingURL=main.css.map */
